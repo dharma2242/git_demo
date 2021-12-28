@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The title is same as category]]>
+    </line>
+    <line>
+      <![CDATA[All titles of size1: 24]]>
+    </line>
+    <line>
+      <![CDATA[All titles of size2: 0]]>
+    </line>
+    <line>
+      <![CDATA[realme C25Y (Glacier Blue, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme Narzo 50A (Oxygen Blue, 128 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme 8i (Space Purple, 128 GB)]]>
+    </line>
+    <line>
+      <![CDATA[GIONEE Max Pro (Red, 32 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme 8i (Space Purple, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme 8i (Space Black, 128 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme Narzo 50A (Oxygen Blue, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme Narzo 50A (Oxygen Green, 128 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme Narzo 50A (Oxygen Green, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme 8i (Space Black, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[realme C25Y (Metal Grey, 64 GB)]]>
+    </line>
+    <line>
+      <![CDATA[list contains the product name]]>
+    </line>
+    <line>
+      <![CDATA[User is landed on product page]]>
+    </line>
+    <line>
+      <![CDATA[Pincode is validated]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to cart Successfully]]>
+    </line>
+    <line>
+      <![CDATA[The title is same as category]]>
+    </line>
+    <line>
+      <![CDATA[All titles of size1: 0]]>
+    </line>
+    <line>
+      <![CDATA[All titles of size2: 40]]>
+    </line>
+    <line>
+      <![CDATA[U&I Web Series Wired Gaming Earphone with Adjustable Mi...]]>
+    </line>
+    <line>
+      <![CDATA[Aroma NB119 Titanium - 48 Hours Playtime Bluetooth Neck...]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...]]>
+    </line>
+    <line>
+      <![CDATA[Aroma NB120 Tehalka - 28 Hours Playtime Bluetooth Neckb...]]>
+    </line>
+    <line>
+      <![CDATA[boAt Bassheads 103 Black Wired Headset]]>
+    </line>
+    <line>
+      <![CDATA[boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...]]>
+    </line>
+    <line>
+      <![CDATA[OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...]]>
+    </line>
+    <line>
+      <![CDATA[Aroma NB119 Rock - 40 Hours Playtime Bluetooth Neckband...]]>
+    </line>
+    <line>
+      <![CDATA[realme Buds Wireless 2 Neo with Type-C Fast Charge & Ba...]]>
+    </line>
+    <line>
+      <![CDATA[realme Buds Q2 Neo with Environment Noise Cancellation ...]]>
+    </line>
+    <line>
+      <![CDATA[N2B MAGNET Red & k1 Pack of 2 Bluetooth Bluetooth Heads...]]>
+    </line>
+    <line>
+      <![CDATA[Boult Audio ProBass Curve Neckband Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...]]>
+    </line>
+    <line>
+      <![CDATA[Aroma NB119B Badshah - 40 Hours Playtime Bluetooth Neck...]]>
+    </line>
+    <line>
+      <![CDATA[FD1 S_S L21 Wireless bluetooth headphone Waterproof Ste...]]>
+    </line>
+    <line>
+      <![CDATA[Aroma NB119 Diamond - 50 Hours Playtime Bluetooth Neckb...]]>
+    </line>
+    <line>
+      <![CDATA[boAt Airdopes 131 Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[boAt Rockerz 255F Pro+ Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[list contains the product name]]>
+    </line>
+    <line>
+      <![CDATA[User is landed on product page]]>
+    </line>
+    <line>
+      <![CDATA[Pincode is validated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="340010" started-at="2021-12-24T13:07:17 IST" finished-at="2021-12-24T13:12:57 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="340010" started-at="2021-12-24T13:07:17 IST" finished-at="2021-12-24T13:12:57 IST">
+      <class name="com.qa.testscript.TC_FlipkartApplnSearch_003">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="setUp" is-config="true" duration-ms="44788" started-at="2021-12-24T13:07:24 IST" finished-at="2021-12-24T13:08:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTo()[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="loginTo" is-config="true" duration-ms="5189" started-at="2021-12-24T13:08:08 IST" finished-at="2021-12-24T13:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTo -->
+        <test-method status="FAIL" signature="FlipkartSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="FlipkartSearch" duration-ms="92428" started-at="2021-12-24T13:08:14 IST" data-provider="getData" finished-at="2021-12-24T13:09:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500092]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[realme C25Y (Metal Grey, 64 GB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[realme C25Y ( 64 GB Storage, 4 GB RAM )]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-OCH8DF6O', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [802a991b8beee15afc4d3aa566efa87f, getElementText {id=f4b37672-8aa7-4ccd-a4a8-a428d75d0488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\iampj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63501/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (802a991b8beee15afc4d3aa566efa87f)] -> xpath: //div[@class='_4rR01T']]
+Session ID: 802a991b8beee15afc4d3aa566efa87f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-OCH8DF6O', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [802a991b8beee15afc4d3aa566efa87f, getElementText {id=f4b37672-8aa7-4ccd-a4a8-a428d75d0488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\iampj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63501/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (802a991b8beee15afc4d3aa566efa87f)] -> xpath: //div[@class='_4rR01T']]
+Session ID: 802a991b8beee15afc4d3aa566efa87f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The title is same as category]]>
+            </line>
+            <line>
+              <![CDATA[All titles of size1: 24]]>
+            </line>
+            <line>
+              <![CDATA[All titles of size2: 0]]>
+            </line>
+            <line>
+              <![CDATA[realme C25Y (Glacier Blue, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme Narzo 50A (Oxygen Blue, 128 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme 8i (Space Purple, 128 GB)]]>
+            </line>
+            <line>
+              <![CDATA[GIONEE Max Pro (Red, 32 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme 8i (Space Purple, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme 8i (Space Black, 128 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme Narzo 50A (Oxygen Blue, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme Narzo 50A (Oxygen Green, 128 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme Narzo 50A (Oxygen Green, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme 8i (Space Black, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[realme C25Y (Metal Grey, 64 GB)]]>
+            </line>
+            <line>
+              <![CDATA[list contains the product name]]>
+            </line>
+            <line>
+              <![CDATA[User is landed on product page]]>
+            </line>
+            <line>
+              <![CDATA[Pincode is validated]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to cart Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="tearDown" is-config="true" duration-ms="1471" started-at="2021-12-24T13:09:46 IST" finished-at="2021-12-24T13:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="setUp" is-config="true" duration-ms="17236" started-at="2021-12-24T13:09:48 IST" finished-at="2021-12-24T13:10:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTo()[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="loginTo" is-config="true" duration-ms="5065" started-at="2021-12-24T13:10:05 IST" finished-at="2021-12-24T13:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTo -->
+        <test-method status="FAIL" signature="FlipkartSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="FlipkartSearch" duration-ms="164805" started-at="2021-12-24T13:10:10 IST" data-provider="getData" finished-at="2021-12-24T13:12:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[earphones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500092]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[boAt Rockerz 255F Pro+ Bluetooth Headset]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[boAt Rockerz 255F Pro+ Bluetooth Headset]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.nio.file.FileSystemException">
+            <message>
+              <![CDATA[D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\Screenshots\FlipkartSearch.png: The process cannot access the file because it is being used by another process.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.FileSystemException: D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\Screenshots\FlipkartSearch.png: The process cannot access the file because it is being used by another process.
+
+at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+at sun.nio.fs.WindowsFileCopy.copy(Unknown Source)
+at sun.nio.fs.WindowsFileSystemProvider.copy(Unknown Source)
+at java.nio.file.Files.copy(Unknown Source)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+at com.qa.testscript.TestBase.captureSS(TestBase.java:86)
+at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:177)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.FileSystemException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The title is same as category]]>
+            </line>
+            <line>
+              <![CDATA[All titles of size1: 0]]>
+            </line>
+            <line>
+              <![CDATA[All titles of size2: 40]]>
+            </line>
+            <line>
+              <![CDATA[U&I Web Series Wired Gaming Earphone with Adjustable Mi...]]>
+            </line>
+            <line>
+              <![CDATA[Aroma NB119 Titanium - 48 Hours Playtime Bluetooth Neck...]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...]]>
+            </line>
+            <line>
+              <![CDATA[Aroma NB120 Tehalka - 28 Hours Playtime Bluetooth Neckb...]]>
+            </line>
+            <line>
+              <![CDATA[boAt Bassheads 103 Black Wired Headset]]>
+            </line>
+            <line>
+              <![CDATA[boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...]]>
+            </line>
+            <line>
+              <![CDATA[OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...]]>
+            </line>
+            <line>
+              <![CDATA[Aroma NB119 Rock - 40 Hours Playtime Bluetooth Neckband...]]>
+            </line>
+            <line>
+              <![CDATA[realme Buds Wireless 2 Neo with Type-C Fast Charge & Ba...]]>
+            </line>
+            <line>
+              <![CDATA[realme Buds Q2 Neo with Environment Noise Cancellation ...]]>
+            </line>
+            <line>
+              <![CDATA[N2B MAGNET Red & k1 Pack of 2 Bluetooth Bluetooth Heads...]]>
+            </line>
+            <line>
+              <![CDATA[Boult Audio ProBass Curve Neckband Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...]]>
+            </line>
+            <line>
+              <![CDATA[Aroma NB119B Badshah - 40 Hours Playtime Bluetooth Neck...]]>
+            </line>
+            <line>
+              <![CDATA[FD1 S_S L21 Wireless bluetooth headphone Waterproof Ste...]]>
+            </line>
+            <line>
+              <![CDATA[Aroma NB119 Diamond - 50 Hours Playtime Bluetooth Neckb...]]>
+            </line>
+            <line>
+              <![CDATA[boAt Airdopes 131 Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[boAt Rockerz 255F Pro+ Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[list contains the product name]]>
+            </line>
+            <line>
+              <![CDATA[User is landed on product page]]>
+            </line>
+            <line>
+              <![CDATA[Pincode is validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c]" name="tearDown" is-config="true" duration-ms="2055" started-at="2021-12-24T13:12:55 IST" finished-at="2021-12-24T13:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_FlipkartApplnSearch_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

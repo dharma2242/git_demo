@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\src\test\java\com\qa\utility\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.testscript.TC_FlipkartApplnSearch_003" hash-for-method="FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...)">FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.testscript.TC_FlipkartApplnSearch_003" hash-for-method="FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))">FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testscript.TC_FlipkartApplnSearch_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...)">
+                  </a> <!-- FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...) -->
+                  <span class="method-name">FlipkartSearch</span>
+                  <span class="parameters">(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headset)</span>
+                  <div class="stack-trace">java.nio.file.FileSystemException: D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\Screenshots\FlipkartSearch.png: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileCopy.copy(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.qa.testscript.TestBase.captureSS(TestBase.java:86)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:177)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))">
+                  </a> <!-- FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM )) -->
+                  <span class="method-name">FlipkartSearch</span>
+                  <span class="parameters">(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;LAPTOP-OCH8DF6O&apos;, ip: &apos;192.168.43.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [802a991b8beee15afc4d3aa566efa87f, getElementText {id=f4b37672-8aa7-4ccd-a4a8-a428d75d0488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\iampj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63501/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (802a991b8beee15afc4d3aa566efa87f)] -&gt; xpath: //div[@class=&apos;_4rR01T&apos;]]
+Session ID: 802a991b8beee15afc4d3aa566efa87f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:59)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\src\test\java\com\qa\utility\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.utility.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testscript.TC_Login_001&quot;/&gt;
+      &lt;class name=&quot;com.qa.testscript.TC_FlipkartApplnSearch_003&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FlipkartSearch')
+data.setCell(0, 2, 'com.qa.testscript.TC_FlipkartApplnSearch_003')
+data.setCell(0, 3, 164805);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FlipkartSearch')
+data.setCell(1, 2, 'com.qa.testscript.TC_FlipkartApplnSearch_003')
+data.setCell(1, 3, 92428);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The title is same as category</span>
+                <span class="reporter-method-output">All titles of size1: 0</span>
+                <span class="reporter-method-output">All titles of size2: 40</span>
+                <span class="reporter-method-output">U&I Web Series Wired Gaming Earphone with Adjustable Mi...</span>
+                <span class="reporter-method-output">Aroma NB119 Titanium - 48 Hours Playtime Bluetooth Neck...</span>
+                <span class="reporter-method-output">OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...</span>
+                <span class="reporter-method-output">Aroma NB120 Tehalka - 28 Hours Playtime Bluetooth Neckb...</span>
+                <span class="reporter-method-output">boAt Bassheads 103 Black Wired Headset</span>
+                <span class="reporter-method-output">boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...</span>
+                <span class="reporter-method-output">OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...</span>
+                <span class="reporter-method-output">Aroma NB119 Rock - 40 Hours Playtime Bluetooth Neckband...</span>
+                <span class="reporter-method-output">realme Buds Wireless 2 Neo with Type-C Fast Charge & Ba...</span>
+                <span class="reporter-method-output">realme Buds Q2 Neo with Environment Noise Cancellation ...</span>
+                <span class="reporter-method-output">N2B MAGNET Red & k1 Pack of 2 Bluetooth Bluetooth Heads...</span>
+                <span class="reporter-method-output">Boult Audio ProBass Curve Neckband Bluetooth Headset</span>
+                <span class="reporter-method-output">boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...</span>
+                <span class="reporter-method-output">Aroma NB119B Badshah - 40 Hours Playtime Bluetooth Neck...</span>
+                <span class="reporter-method-output">FD1 S_S L21 Wireless bluetooth headphone Waterproof Ste...</span>
+                <span class="reporter-method-output">Aroma NB119 Diamond - 50 Hours Playtime Bluetooth Neckb...</span>
+                <span class="reporter-method-output">boAt Airdopes 131 Bluetooth Headset</span>
+                <span class="reporter-method-output">boAt Rockerz 255F Pro+ Bluetooth Headset</span>
+                <span class="reporter-method-output">list contains the product name</span>
+                <span class="reporter-method-output">User is landed on product page</span>
+                <span class="reporter-method-output">Pincode is validated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The title is same as category</span>
+                <span class="reporter-method-output">All titles of size1: 24</span>
+                <span class="reporter-method-output">All titles of size2: 0</span>
+                <span class="reporter-method-output">realme C25Y (Glacier Blue, 64 GB)</span>
+                <span class="reporter-method-output">realme Narzo 50A (Oxygen Blue, 128 GB)</span>
+                <span class="reporter-method-output">realme 8i (Space Purple, 128 GB)</span>
+                <span class="reporter-method-output">GIONEE Max Pro (Red, 32 GB)</span>
+                <span class="reporter-method-output">realme 8i (Space Purple, 64 GB)</span>
+                <span class="reporter-method-output">realme 8i (Space Black, 128 GB)</span>
+                <span class="reporter-method-output">realme Narzo 50A (Oxygen Blue, 64 GB)</span>
+                <span class="reporter-method-output">realme Narzo 50A (Oxygen Green, 128 GB)</span>
+                <span class="reporter-method-output">realme Narzo 50A (Oxygen Green, 64 GB)</span>
+                <span class="reporter-method-output">realme 8i (Space Black, 64 GB)</span>
+                <span class="reporter-method-output">realme C25Y (Metal Grey, 64 GB)</span>
+                <span class="reporter-method-output">list contains the product name</span>
+                <span class="reporter-method-output">User is landed on product page</span>
+                <span class="reporter-method-output">Pincode is validated</span>
+                <span class="reporter-method-output">Product is added to cart Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testscript.TC_FlipkartApplnSearch_003</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginTo</span>
+                <span class="method-start">44791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FlipkartSearch(mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM ))</span>
+                <span class="method-start">49980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">144054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginTo</span>
+                <span class="method-start">161290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FlipkartSearch(earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headse...)</span>
+                <span class="method-start">166356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">331196 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

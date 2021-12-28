@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 24 13:07:17 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>340 seconds (340010 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch()'><b>FlipkartSearch</b><br>Test class: com.qa.testscript.TC_FlipkartApplnSearch_003<br>Parameters: earphones, 500092, boAt Rockerz 255F Pro+ Bluetooth Headset, boAt Rockerz 255F Pro+ Bluetooth Headset<br/>
+<a href="#Output-1390430007" onClick='toggleBox("Output-1390430007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1390430007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1390430007">
+The title is same as category<br/>
+All titles of size1: 0<br/>
+All titles of size2: 40<br/>
+U&I Web Series Wired Gaming Earphone with Adjustable Mi...<br/>
+Aroma NB119 Titanium - 48 Hours Playtime Bluetooth Neck...<br/>
+OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...<br/>
+Aroma NB120 Tehalka - 28 Hours Playtime Bluetooth Neckb...<br/>
+boAt Bassheads 103 Black Wired Headset<br/>
+boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...<br/>
+OnePlus Bullets Wireless Z Bass Edition Bluetooth Heads...<br/>
+Aroma NB119 Rock - 40 Hours Playtime Bluetooth Neckband...<br/>
+realme Buds Wireless 2 Neo with Type-C Fast Charge & Ba...<br/>
+realme Buds Q2 Neo with Environment Noise Cancellation ...<br/>
+N2B MAGNET Red & k1 Pack of 2 Bluetooth Bluetooth Heads...<br/>
+Boult Audio ProBass Curve Neckband Bluetooth Headset<br/>
+boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluet...<br/>
+Aroma NB119B Badshah - 40 Hours Playtime Bluetooth Neck...<br/>
+FD1 S_S L21 Wireless bluetooth headphone Waterproof Ste...<br/>
+Aroma NB119 Diamond - 50 Hours Playtime Bluetooth Neckb...<br/>
+boAt Airdopes 131 Bluetooth Headset<br/>
+boAt Rockerz 255F Pro+ Bluetooth Headset<br/>
+list contains the product name<br/>
+User is landed on product page<br/>
+Pincode is validated<br/>
+</div>
+</td>
+<td><div><pre>java.nio.file.FileSystemException: D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\Screenshots\FlipkartSearch.png: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileCopy.copy(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.qa.testscript.TestBase.captureSS(TestBase.java:86)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:177)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1390430007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1390430007'><pre>java.nio.file.FileSystemException: D:\dharma\selenium software\New folder\ECLIPSE WORKPATH2020-06\FlipKart\Screenshots\FlipkartSearch.png: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileCopy.copy(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.copy(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at com.qa.testscript.TestBase.captureSS(TestBase.java:86)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>164</td>
+<td>com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c</td></tr>
+<tr>
+<td title='com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch()'><b>FlipkartSearch</b><br>Test class: com.qa.testscript.TC_FlipkartApplnSearch_003<br>Parameters: mobiles, 500092, realme C25Y (Metal Grey, 64 GB), realme C25Y ( 64 GB Storage, 4 GB RAM )<br/>
+<a href="#Output-1066561773" onClick='toggleBox("Output-1066561773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1066561773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1066561773">
+The title is same as category<br/>
+All titles of size1: 24<br/>
+All titles of size2: 0<br/>
+realme C25Y (Glacier Blue, 64 GB)<br/>
+realme Narzo 50A (Oxygen Blue, 128 GB)<br/>
+realme 8i (Space Purple, 128 GB)<br/>
+GIONEE Max Pro (Red, 32 GB)<br/>
+realme 8i (Space Purple, 64 GB)<br/>
+realme 8i (Space Black, 128 GB)<br/>
+realme Narzo 50A (Oxygen Blue, 64 GB)<br/>
+realme Narzo 50A (Oxygen Green, 128 GB)<br/>
+realme Narzo 50A (Oxygen Green, 64 GB)<br/>
+realme 8i (Space Black, 64 GB)<br/>
+realme C25Y (Metal Grey, 64 GB)<br/>
+list contains the product name<br/>
+User is landed on product page<br/>
+Pincode is validated<br/>
+Product is added to cart Successfully<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;LAPTOP-OCH8DF6O&apos;, ip: &apos;192.168.43.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [802a991b8beee15afc4d3aa566efa87f, getElementText {id=f4b37672-8aa7-4ccd-a4a8-a428d75d0488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\iampj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63501/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (802a991b8beee15afc4d3aa566efa87f)] -&gt; xpath: //div[@class=&apos;_4rR01T&apos;]]
+Session ID: 802a991b8beee15afc4d3aa566efa87f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:59)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1066561773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1066561773'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;LAPTOP-OCH8DF6O&apos;, ip: &apos;192.168.43.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [802a991b8beee15afc4d3aa566efa87f, getElementText {id=f4b37672-8aa7-4ccd-a4a8-a428d75d0488}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\iampj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63501/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (802a991b8beee15afc4d3aa566efa87f)] -&gt; xpath: //div[@class=&apos;_4rR01T&apos;]]
+Session ID: 802a991b8beee15afc4d3aa566efa87f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+	at com.qa.testscript.TC_FlipkartApplnSearch_003.FlipkartSearch(TC_FlipkartApplnSearch_003.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>92</td>
+<td>com.qa.testscript.TC_FlipkartApplnSearch_003@35a50a4c</td></tr>
+</table><p>
+</body>
+</html>
