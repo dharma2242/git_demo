@@ -24,7 +24,8 @@ public class TC_CustomerChat_004 extends TC_Login_001 {
 	
 		SoftAssert sAssert = new SoftAssert();
 		  String parent= driver.getWindowHandle();
-			Thread.sleep(3000);
+		  System.out.println(parent);
+		  Thread.sleep(3000);
 			Actions actions = new Actions(driver);
 			
 		
